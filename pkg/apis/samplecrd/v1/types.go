@@ -13,12 +13,7 @@ type Network struct {
 	// TypeMeta is the metadata for the resource, like kind and apiversion
 	metav1.TypeMeta `json:",inline"`
 	// ObjectMeta contains the metadata for the particular object, including
-	// things like...
-	//  - name
-	//  - namespace
-	//  - self link
-	//  - labels
-	//  - ... etc ...
+
 	metav1.ObjectMeta `json:"metadata,omitempty"`
 
 	// Spec is the custom resource spec
